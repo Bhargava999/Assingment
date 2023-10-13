@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calcContainer">
+        <form name="calculator">
+            <!-- Top row -->
+            <div class="result-clear">
+                <!-- Display -->
+                <input type="text" class="result" name="answer" readonly />
+
+                <!-- Clear Button -->
+                <input type="button" class="clear" value=" AC " id="clearButton">
+            </div>
+            <!-- All input buttons -->
+            <div class="grid-buttons">
+                <!-- 2nd row -->
+                <input type="button" value="9" class="num-button" />
+                <input type="button" value="8" class="num-button" />
+                <input type="button" value="7" class="num-button" />
+                <input type="button" value="+" class="math" />
+                <br />
+                <!-- 3rd row -->
+                <input type="button" value="4" class="num-button" />
+                <input type="button" value="5" class="num-button" />
+                <input type="button" value="6" class="num-button" />
+                <input type="button" value="-" class="math" />
+                <br />
+                <!-- 4th row -->
+                <input type="button" value="1" class="num-button" />
+                <input type="button" value="2" class="num-button" />
+                <input type="button" value="3" class="num-button" />
+                <input type="button" value="/" class="math" />
+                <br />
+                <!-- 5th row -->
+                <input type="button" value="." class="num-button" />
+                <input type="button" value="0" class="num-button" />
+                <input type="button" value="=" id="calculateButton" />
+                <input type="button" value="*" class="math" />
+            </div>
+        </form>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

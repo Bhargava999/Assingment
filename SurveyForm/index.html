@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Survey Form</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Customer Survey Form</h1>
+    </header>
+    <div class="container">
+        <form action="" class="form">
+            <label for="first-name">First Name</label>
+            <br>
+            <input type="text" id="first-name" placeholder="Type here" class="fn">
+            <br>
+            <label for="last-name">Last Name</label>
+            <br>
+            <input type="text" id="last-name" placeholder="Type here" class="fn">
+            <br>
+            <label for="mobile">Mobile No</label>
+            <br>
+            <input type="text" id="mobile" placeholder="Enter Mobile" class="fn">
+            <br>
+            <label for="email">Email Id</label>
+            <br>
+            <input type="email" id="email" placeholder="Type here" class="fn">
+            <br>
+            <label for="country">Country</label>
+            <br>
+            <select name="country" id="country" class="fn">
+                <option value="Select">Select</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+            </select>
+            <br>
+            <label for="profession">Profession</label>
+            <input type="text" id="profession" placeholder="Type here" class="fn">
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <div class="radio">
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+            </div>
+
+            <div class="sub">
+                <input type="submit"><span id="slash"> /</span>
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+    <table class="table">
+        <caption>Customer Survey Details</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Mobile No</th>
+            <th>Email</th>
+            <th>Country</th>
+            <th>Profession</th>
+            <th>Gender</th>
+        </tr>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

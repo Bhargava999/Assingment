@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.header {
+    width: 25%;
+    height: 70px;
+    background: whitesmoke;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-top: blueviolet 6px solid;
+    border-radius: 10px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 25%;
+    height: 620px;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+}
+
+.form {
+    margin-left: 50px;
+}
+
+.form input {
+    font-size: 18px;
+}
+
+.form ::placeholder {
+    font-size: 15px;
+}
+
+.fn {
+    width: 85%;
+    background: none;
+    border: none;
+    border-bottom: 1px black solid;
+}
+
+#drop-1 {
+    font-size: 18px;
+}
+
+.sub input {
+    margin-top: -2px;
+    border: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.sub input:hover {
+    padding-bottom: 1px;
+    border-bottom: 2px solid blueviolet;
+}
+
+.sub #slash {
+    color: blueviolet;
+}
+
+/* Table */
+.table {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.table td {
+    padding: 8px;
+}
+
+.table td:first-child {
+    font-weight: bold;
+    color: #336699;
+}
+
+.table caption {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.table tbody {
+    background-color: white;
+    font-size: 12px;
+    padding: 8px;
+    text-align: left;
+}
+
+.table tbody td {
+    border: 1px solid gray;
+}
